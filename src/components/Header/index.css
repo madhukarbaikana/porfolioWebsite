@@ -17,7 +17,8 @@
         height:15vh;
         padding-left:50px;
         padding-right:50px;
-    }}
+    }
+}
 @media screen and (min-width:992px){
     .nav-container{
         padding-left:75px;
@@ -25,13 +26,13 @@
     }
 }
 .website-logo{
-font-size:16px;
-cursor:pointer;
+    font-size:16px;
+    cursor:pointer;
 }
 @media screen and (min-width:768px){
     .website-logo{
         font-size:22px;
-}
+    }
 }
 .nav-items-list-container{
     list-style-type:none;
@@ -49,7 +50,8 @@ cursor:pointer;
 @media screen and (min-width:992px){
     .nav-items-list-container{
         width:35%;
-}}
+    }
+}
 .nav-list-item{
     font-size:14px;
     font-weight:500;
@@ -70,10 +72,10 @@ cursor:pointer;
     border-radius:6px;
 }
 @media screen and (min-width:768px){
-.nav-link-text{
-    padding:8px 10px;
-}
+    .nav-link-text{
+        padding:8px 10px;
+    }
 }
 .active{
-background-color:#d1f0d9;
+    background-color:#d1f0d9;
 }

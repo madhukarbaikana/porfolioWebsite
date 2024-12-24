@@ -69,10 +69,11 @@
     cursor:pointer;
 }
 @media screen and (max-width:768px){
-.navigation-buttons-container{
-display:flex;
-flex-direction:column;
-}}
+    .navigation-buttons-container{
+        display:flex;
+        flex-direction:column;  
+    }
+}
 .home-button{
     border:none;
     outline:none;

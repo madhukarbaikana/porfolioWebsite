@@ -20,11 +20,12 @@
         width:85%;
         padding-top:190px;
     }
-    }
+}
 @media screen and (min-width:992px){
     .projects-section-content-container{
-            padding-top:100px;
-    }}
+        padding-top:100px;
+    }
+}
 .projects-section-heading{
     text-align: center;
     font-size:26px;
@@ -34,16 +35,17 @@
 @media screen and (min-width:768px){
     .projects-section-heading{
         font-size:32px;
-}}
+    }
+}
 .projects-section-description{
     font-size:14px;
     color: #616e7c;
     line-height:1.7;
 }
 @media screen and (min-width:768px){
-.projects-section-description{
-    font-size:18px;
-}
+    .projects-section-description{
+        font-size:18px;
+    }
 }
 .highliting-text{
 color:#398851;

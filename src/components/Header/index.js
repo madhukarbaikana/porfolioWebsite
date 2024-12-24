@@ -16,10 +16,10 @@ const Header=()=>{
               <NavLink to="/about" className="nav-link-text">About</NavLink>
             </li>
             <li className="nav-list-item">
-            <NavLink to="/projects" className="nav-link-text">Projects</NavLink>
+              <NavLink to="/projects" className="nav-link-text">Projects</NavLink>
             </li>
             <li className="nav-list-item">
-            <NavLink to="/contact" className="nav-link-text">Contact</NavLink>
+              <NavLink to="/contact" className="nav-link-text">Contact</NavLink>
             </li>
         </ul>
     </nav>)

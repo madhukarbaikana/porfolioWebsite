@@ -22,12 +22,13 @@
         padding-top:0px;
         margin-top: 170px;
     }
+}
+@media screen and (min-width:992px){
+    .contact-content-container{
+        padding-top:0px;
+        margin-top: 110px;
     }
-    @media screen and (min-width:992px){
-        .contact-content-container{
-            padding-top:0px;
-            margin-top: 110px;
-    }}
+}
 .contact-section-heading{
     text-align: center;
     font-size:26px;
@@ -38,16 +39,16 @@
     .contact-section-heading{
         font-size:32px;
     }
-    }
+}
 .contact-section-description{
     font-size:14px;
     color: #616e7c;
     line-height:1.5;
 }
 @media screen and (min-width:768px){
-.contact-section-description{
-    font-size:18px;
-}
+    .contact-section-description{
+        font-size:18px;
+    }
 }
 .details-font{
     font-size:32px;
@@ -65,23 +66,24 @@
 }
 @media screen and (max-width:768px){
     .navigation-buttons-container{
-    display:flex;
-    flex-direction:column;
-    }}
+        display:flex;
+        flex-direction:column;
+    }
+}
+.contact-section-button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:16px;
+    background-color:#398851;
+    padding:16px 26px;
+    border-radius:12px;
+    margin-right:16px;
+    margin-bottom:16px; 
+}
+@media screen and (max-width:768px){
     .contact-section-button{
-        border:none;
-        outline:none;
-        cursor:pointer;
-        color:#ffffff;
-        font-size:16px;
-        background-color:#398851;
-        padding:16px 26px;
-        border-radius:12px;
-        margin-right:16px;
-        margin-bottom:16px; 
+        font-size:14px;
     }
-    @media screen and (max-width:768px){
-        .contact-section-button{
-            font-size:14px;
-        }
-    }
+}

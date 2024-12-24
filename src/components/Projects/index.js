@@ -7,14 +7,7 @@ import imageFoodMunch from "../../images/foodMunchWebsite.PNG"
 import imageTodos from "../../images/todos.PNG"
 
 import "./index.css"
-const newProject={
-    id:6,
-    image:imageTodos,
-    title:"Todos Application",
-    teckStack:["CSS","Flexbox","HTML"],
-    liveDemoLink:"https://madhukartodoapp.ccbp.tech/",
-    gitHubLink:"https://github.com/madhukarbaikana/Todo-application"
-};
+
 const projectsList=[{
     id:1,
     image:imageJobby,
@@ -71,22 +64,20 @@ const Projects=()=>{
             <div className="projects-section-content-container">
                 <h1 className="projects-section-heading">Projects</h1>
                 <p className="projects-section-description">
-                I love doing everything from scratch.
-                Here are some of my favorite ones which 
-                sum up my knowledge. I have done many small 
-                projects from different courses and challenges to
-                learn the basics. You can check them on my  
-                <a href="https://www.github.com/madhukarbaikana" target="_blank" className="gitlink-element">
-                <span className="highliting-text"> Github</span> 
-                </a>
-            </p>
+                    I love doing everything from scratch.
+                    Here are some of my favorite ones which 
+                    sum up my knowledge. I have done many small 
+                    projects from different courses and challenges to
+                    learn the basics. You can check them on my  
+                    <a href="https://www.github.com/madhukarbaikana" target="_blank" className="gitlink-element" rel="noreferrer">
+                        <span className="highliting-text"> Github</span> 
+                    </a>
+                </p>
                 <ul className="projects-section-projects-container">
                     {projectsList.map(eachProject=><ProjectCard eachProject={eachProject}/>)}
                 </ul>
             </div>
-
         </div>
-        
     )
 }
 
