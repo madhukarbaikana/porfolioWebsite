@@ -3,40 +3,14 @@ import {Link} from "react-router-dom"
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import imageJobby from "../../images/jobby.PNG";
-import imageTrendz from "../../images/nxttrendz.PNG"
-import imageEmoji from "../../images/emojigame.PNG"
 
+import { useProjects } from '../../context/ProjectsContext';
 import ProjectCard from '../ProjectCard';
 import "./index.css"
 
-const projectsList=[{
-    id:1,
-    image:imageJobby,
-    title:"Jobby App",
-    teckStack:["ReactJS","Javascript","CSS", "Restful-Api"],
-    liveDemoLink:"https://jobbyapp-kappa.vercel.app",
-    gitHubLink:"https://github.com/madhukarbaikana/JobbyApp"
-},
-{
-    id:2,
-    image:imageTrendz,
-title:"Trendz E-commerce Platform",
-    teckStack:["ReactJS","Javascript","CSS","Restful-Api"],
-    liveDemoLink:"https://nxt-trendz-e-commerce-app-eight.vercel.app",
-    gitHubLink:"https://github.com/madhukarbaikana/nxtTrendzE-commerceApp"
-},
-{
-    id:3,
-    image:imageEmoji,
-    title:"Emoji Game",
-    teckStack:["ReactJS","Javascript","CSS"],
-    liveDemoLink:"https://emoji-game-ashy.vercel.app",
-    gitHubLink:"https://github.com/madhukarbaikana/emoji_game"
-}
-]
-
 const Home=()=> {
+
+const projectsList=useProjects()
 
     return (
         <div className="home-container">
@@ -74,7 +48,7 @@ const Home=()=> {
                 <div className="projects-content-container">
                     <h1 className="home-page-heading">Featured Projects</h1>
                     <ul className="projects-container">
-                        {projectsList.map(eachProject=><ProjectCard eachProject={eachProject} key={eachProject.id}/>)}
+                        {(projectsList.slice(0,3)).map(eachProject=><ProjectCard eachProject={eachProject} key={eachProject.id}/>)}
                     </ul>
                     <Link to="/projects">
                         <button className="home-button">

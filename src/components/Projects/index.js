@@ -1,64 +1,10 @@
 import ProjectCard from "../ProjectCard"
-import imageJobby from "../../images/jobby.PNG";
-import imageTrendz from "../../images/nxttrendz.PNG"
-import imageEmoji from "../../images/emojigame.PNG"
-import imageAddUser from "../../images/addUserProject.PNG"
-import imageFoodMunch from "../../images/foodMunchWebsite.PNG"
-import imageTodos from "../../images/todos.PNG"
+import {useProjects} from "../../context/ProjectsContext"
 
 import "./index.css"
 
-const projectsList=[{
-    id:1,
-    image:imageJobby,
-    title:"Jobby App",
-    teckStack:["ReactJS","Javascript","CSS", "Restful-Api"],
-    liveDemoLink:"https://jobbyapp-kappa.vercel.app",
-    gitHubLink:"https://github.com/madhukarbaikana/JobbyApp"
-},
-{
-    id:2,
-    image:imageTrendz,
-title:"Trendz E-commerce Platform",
-    teckStack:["ReactJS","Javascript","CSS","Restful-Api"],
-    liveDemoLink:"https://nxt-trendz-e-commerce-app-eight.vercel.app",
-    gitHubLink:"https://github.com/madhukarbaikana/nxtTrendzE-commerceApp"
-},
-{
-    id:3,
-    image:imageEmoji,
-    title:"Emoji Game",
-    teckStack:["ReactJS","Javascript","CSS"],
-    liveDemoLink:"https://emoji-game-ashy.vercel.app",
-    gitHubLink:"https://github.com/madhukarbaikana/emoji_game"
-},{
-    id:4,
-    image:imageAddUser,
-    title:"Add User Website",
-    teckStack:["Javascript","CSS","Flexbox","HTML"],
-    liveDemoLink:"https://adduserwebmadhu.ccbp.tech/",
-    gitHubLink:"https://github.com/madhukarbaikana/Add_User_website"
-},
-{
-    id:5,
-    image:imageTodos,
-    title:"Todos Application",
-    teckStack:["CSS","Flexbox","HTML"],
-    liveDemoLink:"https://madhukartodoapp.ccbp.tech/",
-    gitHubLink:"https://github.com/madhukarbaikana/Todo-application"
-},
-{
-    id:6,
-    image:imageFoodMunch,
-    title:"Food Munch Website",
-    teckStack:["Bootstrap","CSS","Flexbox","HTML"],
-    liveDemoLink:"https://madhukarrespons.ccbp.tech/",
-    gitHubLink:"https://github.com/madhukarbaikana/Food_munch_website"
-}
-
-]
-
 const Projects=()=>{
+    const projectsList=  useProjects()
     return (
         <div className="projects-section-container">
             <div className="projects-section-content-container">
@@ -74,7 +20,7 @@ const Projects=()=>{
                     </a>
                 </p>
                 <ul className="projects-section-projects-container">
-                    {projectsList.map(eachProject=><ProjectCard eachProject={eachProject}/>)}
+                    {projectsList.map(eachProject=><ProjectCard eachProject={eachProject} key={eachProject.id}/>)}
                 </ul>
             </div>
         </div>
