@@ -33,7 +33,7 @@ const projectsList=useProjects()
                 <div className="navigation-buttons-container">
                     <button className="home-button">
                         <a className="resume-anchor-tag" target="_blank" rel="noreferrer" 
-                        href="https://drive.google.com/file/d/165V8BvZZuN4Z2bmoKJOGm-o-TCt1P1Mt/view?usp=sharing">
+                        href="https://drive.google.com/file/d/1y8efFeFRlTfKxN39LPxNdE_DxbkxcuDz/view?usp=drive_link">
                             View Resume
                         </a> 
                     </button>
