@@ -20,7 +20,7 @@ const Contact=()=>{
                 <button type="button" className="contact-section-button" onClick={()=>window.location.href="mailto:madhukarbaikana17@gmail.com"} >
                     Send Email
                 </button>
-                <a href="https://www.linkedin.com/in/madhukar-baikana-7bm" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/madhukarbaikana" target="_blank" rel="noreferrer">
                     <button type="button" className="contact-section-button" > 
                         Let’s Connect On LinkedIn
                     </button>

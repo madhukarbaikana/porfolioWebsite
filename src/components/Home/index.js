@@ -20,7 +20,7 @@ const projectsList=useProjects()
                 <p className="details-font">FrontEnd Developer</p>
                 <p className="details-font email-text"> {"< madhukarbaikana17@gmail.com />"}</p>
                 <div className="social-media-buttons-container">
-                    <a href="https://www.linkedin.com/in/madhukar-baikana-7bm" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/madhukarbaikana" target="_blank" rel="noreferrer">
                         <BsLinkedin className="social-meadia-icon" />
                     </a>
                     <a href="https://www.github.com/madhukarbaikana" target="_blank" rel="noreferrer">
@@ -33,7 +33,7 @@ const projectsList=useProjects()
                 <div className="navigation-buttons-container">
                     <button className="home-button">
                         <a className="resume-anchor-tag" target="_blank" rel="noreferrer" 
-                        href="https://drive.google.com/file/d/1y8efFeFRlTfKxN39LPxNdE_DxbkxcuDz/view?usp=drive_link">
+                        href="https://drive.google.com/file/d/1gtIshUB1mTRJpXIuJ9D5GCwN2K3HTYXK/view?usp=drive_link">
                             View Resume
                         </a> 
                     </button>
