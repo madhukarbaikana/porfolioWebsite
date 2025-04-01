@@ -36,11 +36,12 @@
     list-style-type:none;
     padding-left:0px;
     display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom:16px;
 }
 .tech-stack{
-    margin-left:4px;
-    margin-right:4px;
+    margin:4px 4px;
     padding:5px 6px;
     background-color:#e6eded;
     color:#272829;

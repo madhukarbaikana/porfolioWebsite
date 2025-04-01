@@ -9,22 +9,38 @@ const About = () => {
       <div className="about-content-container">
         <h1 className="about-section-heading">About Me</h1>
         <p className="about-section-description">
-          Hi there, I’m Madhukar Baikana, a skilled Full-Stack Developer
-          specializing in ReactJS, NodeJS, ExpressJS, JavaScript and modern web
-          technologies. I am passionate about creating intuitive, user-friendly
-          interfaces and delivering seamless web experiences through clean and
-          efficient code.
+          I’m Madhukar Baikana, a Frontend & Full-Stack Developer passionate
+          about building scalable, high-performance web applications with a
+          seamless UI/UX experience. I specialize in React.js, JavaScript
+          (ES6+), and modern web technologies, with expertise in state
+          management, API integration, and performance optimization.
           <br />
           <br />
-          With hands-on training at Nextwave CCBP, I’ve built a strong
-          foundation in front-end development, mastering tools like HTML, CSS,
-          Bootstrap, Python, SQL, and version control with Git. My expertise
-          lies in component-based design, state management, and crafting
-          responsive, interactive web applications. Fluent in English, Hindi and
-          Telugu and based in Hyderabad (Open to Relocate). I’m eager to
-          contribute to innovative teams and bring impactful ideas to life.
-          Let’s connect and collaborate to create exceptional digital
-          experiences!
+          What I Do
+          <br />
+          ✅ Build Interactive & Scalable Web Applications
+          <br />
+          ✅ Develop Responsive & User-Friendly Interfaces
+          <br />
+          ✅ Optimize Performance & State Management
+          <br />
+          ✅ Implement Secure Authentication & API Integrations
+          <br />
+          <br />
+          Projects
+          <br />
+          Jobby Application – A job portal with authentication, search filters,
+          and detailed job listings
+          <br />
+          Nxt Trendz – An e-commerce platform with product search, filters, and
+          cart functionality
+          <br />
+          <br />
+          I’m actively seeking Frontend/Full-Stack Developer opportunities where
+          I can contribute to innovative projects and create impactful digital
+          solutions.
+          <br />
+          📩 Open to opportunities & collaboration! Let’s connect.
         </p>
         <h1 className="about-section-heading">Technical Skills</h1>
         <div className="technical-skills-cards-container">
@@ -34,8 +50,7 @@ const About = () => {
             </h1>
             <ul className="technologies-container">
               <li className="stack">ReactJS</li>
-              <li className="stack">Redux</li>
-              <li className="stack">Javascript ES6+</li>
+              <li className="stack">Javascript (ES6+)</li>
               <li className="stack">HTML5</li>
               <li className="stack">CSS3</li>
               <li className="stack">Bootstrap</li>
@@ -49,26 +64,50 @@ const About = () => {
               <li className="stack">NodeJS</li>
               <li className="stack">ExpressJS</li>
               <li className="stack">REST APIs</li>
+              <li className="stack">JWT Authentication</li>
+              <li className="stack"> bcrypt</li>
             </ul>
           </div>
           <div className="technical-skills-card">
-            <h1 className="technical-skills-card-heading">Database Management</h1>
+            <h1 className="technical-skills-card-heading">
+              Database Management
+            </h1>
             <ul className="technologies-container">
-              <li className="stack">SQLite</li> 
+              <li className="stack">SQLite</li>
             </ul>
           </div>
           <div className="technical-skills-card">
-            <h1 className="technical-skills-card-heading">Programming Languages</h1>
+            <h1 className="technical-skills-card-heading">State Management</h1>
+            <ul className="technologies-container">
+              <li className="stack">React Context API</li>
+              <li className="stack">Redux</li>
+              <li className="stack">React Hooks</li>
+            </ul>
+          </div>
+          <div className="technical-skills-card">
+            <h1 className="technical-skills-card-heading">
+              Programming Languages
+            </h1>
             <ul className="technologies-container">
               <li className="stack">Python</li>
-              <li className="stack">JavaScript ES6+</li>
+              <li className="stack">JavaScript (ES6+)</li>
             </ul>
           </div>
           <div className="technical-skills-card">
-            <h1 className="technical-skills-card-heading">Tools & Platforms</h1>
+            <h1 className="technical-skills-card-heading">Version Control</h1>
             <ul className="technologies-container">
-              <li className="stack">Git</li>    
-              <li className="stack">VS Code</li>
+              <li className="stack">GitHub</li>
+              <li className="stack">Git</li>
+            </ul>
+          </div>
+          <div className="technical-skills-card">
+            <h1 className="technical-skills-card-heading">
+              Tools & Deployment
+            </h1>
+            <ul className="technologies-container">
+              <li className="stack">Netlify</li>
+              <li className="stack">Vercel</li>
+              <li className="stack">Postman</li>
             </ul>
           </div>
         </div>
@@ -84,15 +123,24 @@ const About = () => {
           <p className="about-section-description">Hyderabad, India</p>
           <div className="job-description-container">
             <p className="about-section-description">
-              {" "}
               <TfiControlForward className="paragraph-icon" />
-              Enhanced technical documentation and streamlined team
-              communication, resulting in improved project outcomes
+              Developed and maintained web interfaces using HTML5, CSS3,
+              JavaScript, and Bootstrap ensuring clean and efficient code.
             </p>
             <p className="about-section-description">
               <TfiControlForward className="paragraph-icon" />
-              Worked in a collaborative environment to analyze technical
-              challenges and propose solutions
+              Created responsive layouts for improved user experience across
+              multiple devices.
+            </p>
+            <p className="about-section-description">
+              <TfiControlForward className="paragraph-icon" />
+              Applied front-end best practices to enhance website performance
+              and maintainability.
+            </p>
+            <p className="about-section-description">
+              <TfiControlForward className="paragraph-icon" />
+              Collaborated with teams to troubleshoot and enhance website
+              functionality.
             </p>
           </div>
         </div>
@@ -101,7 +149,9 @@ const About = () => {
           <h1 className="about-page-sub-heading">
             TKR College of Engineering and Technology, Hyderabad, Telangana
           </h1>
-          <p className="sub-heading-detailing">BTech in Civil Engineering</p>
+          <p className="sub-heading-detailing">
+            Bachelor of Technology (B.Tech), Civil Engineering
+          </p>
           <p className="about-section-description duration">2015 - 2019</p>
           <h1 className="about-page-sub-heading">
             Trishool Junior College, Warangal, Telangana
@@ -127,7 +177,7 @@ const About = () => {
         <p className="sub-heading-detailing">Native or bilingual proficiency</p>
         <h1 className="about-section-heading">Certifications & Training</h1>
         <p className="about-page-sub-heading">
-          Completed training at Nextwave CCBP, Hyderabad
+          Completed Full-Stack Development Training at Nextwave CCBP, Hyderabad
         </p>
       </div>
     </div>
